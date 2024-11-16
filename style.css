@@ -1,0 +1,45 @@
+.axis-label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: semibold;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+#main {
+    margin: 20px;
+}
+
+.title {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: semibold;
+    font-family: Arial, 'sans-serif';
+}
+
+rect.overlay {
+    stroke: black;
+}
+
+rect.selection {
+    stroke: none;
+    fill: steelblue;
+    fill-opacity: 0.6;
+}
+
+#labelleft,
+#labelright {
+    font-size: 12px;
+    font-family: Arial, 'sans-serif';
+}
+
+#labelleft {
+    text-anchor: end;
+}
+
+#labelright {
+    text-anchor: start;
+}
